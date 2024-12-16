@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+            /* universal selector..................... */
+   /* *{
+        color:red;
+        font-style: italic;
+        text-align: center;
+        text-transform: capitalize;
+    }*/
+            /* type selector.......................... */
+    /*h1{
+        color:blueviolet;
+        text-decoration:line-through;
+        text-align: right;
+        
+    }
+    p{
+        color:aqua;
+        background-color:cadetblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+    h4{
+        color:crimson;
+        font-style: italic;
+        text-align: center;
+        font-size: 40px;
+        
+    }*/
+            /* id selector.............................. */
+    /* #heading1{
+        color:brown;
+        font-style: italic;
+    }
+    #heading2{
+        color:blue;
+        text-decoration: underline;
+    }
+            /* class selector........................... */
+    /*.para{
+        color:limegreen;
+        
+    }*/
+
+            /* group selector............................ */
+    /*h1,p{
+        color:red;
+    }
+            /* decending selector......................... */
+    /*div p{
+        color:red;
+    }*/
+            /* child combinator............................. */
+    /* div>p{
+        background-color: greenyellow;
+        color:black;
+    }
+    span>span{
+        background-color: aqua;
+        color:black;
+    }
+    div>span{
+        background-color:blue;
+        color:bisque                      
+    } */
+            /* adjacent sibling selector........................ */
+     /* h1+p+p+p{
+        color:red;
+        font-style: italic;
+     }  */
+            /* general sibling selector.......................... */
+      /* h1 ~ p{
+        color: blueviolet;
+      } */
+            /* Pseudo classes..................................... */
+        h1:hover{
+            color:red;
+            font-style: italic;
+        }
+        button{
+            padding: 7px 35px;
+            background-color: aqua;
+            border: 1px solid black;
+            border-radius: 12px;
+        }
+        button:hover{
+            background-color: hotpink;
+            cursor:pointer;
+            border: none;
+            border-radius: 0px;
+            padding: 15px 60px;
+        } 
+        a:link{
+            color:red;
+            background-color: cadetblue;
+        }
+        a:visited{
+            color:blue;
+            background-color: blanchedalmond;
+        }
+        a:hover{
+            color:hotpink;
+            background-color: bisque;
+        }
+        a:active{
+            color:black;
+            background-color: aqua;
+        }
+
+             /* Attribute selector.................................... */
+             /* [placeholder]{
+                color: red;
+                border: 2px solid green;
+             } 
+            input [type="text"]{
+                color: green;
+                padding: 10px 20px;
+                margin: 10px;
+                border: 1px solid black;
+            } */
+            /* li:nth child............................................. */
+            li:nth-child(1){
+                color:hotpink;
+            }
+            li:nth-child(2){
+                color: blue;
+            }
+            li:nth-child(3){
+                color:aqua;
+            }
+            li:nth-child(4){
+                color:red;
+            }
+            li:nth-child(5){
+                color:blueviolet;
+            }
+            li:nth-child(6){
+                color:rgb(26, 239, 33);
+            }
+
+</style>
+<body>
+    <!-- <h1 id="heading1">This is demo for selector</h1> -->
+    <!-- <h1 id="heading2">this is demo</h1> -->
+    <!-- <h1>This is demo</h1> -->
+    <!-- <p class="para"><b>This is demo</b></p> -->
+    <!-- <p>This is para</p> -->
+    <!-- <h4>This demo</h4> -->
+    <!-- <h4 class="para">This is demo</h4> -->
+     <!-- <div> -->
+        <!-- <p>This is p tag inside a div</p> -->
+     <!-- </div> -->
+     <!-- <p>This is p tag outsde a div</p> -->
+      <!-- <div>
+        <p>this is direct child we will target</p>
+        <div>
+            <span>
+                <span>this is another child</span>
+            </span>
+            <span>this is nested chile of div</span>
+      </div> -->
+      <!-- <h1>Form</h1>
+      <button>Submit</button><br><br>
+      <a href="https://www.geeksforgeeks.org/" target="_blank">This is a link</a> -->
+
+            <!-- Attrbute selector .....................................................................-->
+             <!-- <form>
+      <input type="text" placeholder="Enter your name" /><br><br>
+      <input type="password" placeholder="Enter password" />
+    </form> -->
+    <!-- <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p> -->
+    <ul>
+        <li>BHAVISHYA</li>
+        <li>SWATHI</li>
+        <li>PRAGATHI</li>
+        <li>HARSHITHA</li>
+        <li>VASANTHI</li>
+        <li>JHANUU</li>
+    </ul>
+
+</body>
+</html>
